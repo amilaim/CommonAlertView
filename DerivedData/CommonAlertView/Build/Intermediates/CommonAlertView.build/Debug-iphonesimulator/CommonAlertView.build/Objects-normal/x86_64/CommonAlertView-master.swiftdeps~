@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "27c167f13a58c0b0590d38c2efd89416"
+build_time: [546464394, 543892000]
+inputs:
+  "/Work/RnD/CommonAlertView/CommonAlertView/ViewController.swift": [546443163, 0]
+  "/Work/RnD/CommonAlertView/CommonAlertView/AlertViewController.swift": [9223372036854775807, 0]
+  "/Work/RnD/CommonAlertView/CommonAlertView/AppDelegate.swift": [546443163, 0]

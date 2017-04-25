@@ -1,0 +1,505 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlertViewControllerDelegate"
+- "AlertViewController"
+provides-nominal:
+- "P15CommonAlertView27AlertViewControllerDelegate"
+- "C15CommonAlertView19AlertViewController"
+provides-member:
+- ["P15CommonAlertView27AlertViewControllerDelegate", ""]
+- ["C15CommonAlertView19AlertViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AlertViewController"
+- "AlertViewControllerDelegate"
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- !private "UITextField"
+- "UIViewController"
+- !private "Void"
+depends-member:
+- ["C15CommonAlertView19AlertViewController", "AlertViewController"]
+- ["C15CommonAlertView19AlertViewController", "AlertViewControllerDelegate"]
+- ["C15CommonAlertView19AlertViewController", "String"]
+- ["C15CommonAlertView19AlertViewController", "SubmitAlertView"]
+- !private ["C15CommonAlertView19AlertViewController", "UIAlertAction"]
+- !private ["C15CommonAlertView19AlertViewController", "UIAlertController"]
+- !private ["C15CommonAlertView19AlertViewController", "UITextField"]
+- ["C15CommonAlertView19AlertViewController", "UIViewController"]
+- !private ["C15CommonAlertView19AlertViewController", "Void"]
+- ["C15CommonAlertView19AlertViewController", "deinit"]
+- ["C15CommonAlertView19AlertViewController", "delegate"]
+- ["C15CommonAlertView19AlertViewController", "init"]
+- ["C15CommonAlertView19AlertViewController", "sharedInstance"]
+- ["P15CommonAlertView27AlertViewControllerDelegate", "String"]
+- ["P15CommonAlertView27AlertViewControllerDelegate", "SubmitAlertViewResult"]
+- ["Ps9AnyObject", "AlertViewController"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "addTextField"]
+- !private ["Ps9AnyObject", "autocorrectionType"]
+- !private ["Ps9AnyObject", "clearButtonMode"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyboardAppearance"]
+- !private ["Ps9AnyObject", "keyboardType"]
+- !private ["Ps9AnyObject", "placeholder"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "textFields"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "autocorrectionType"]
+- !private ["PSo15CALayerDelegate", "clearButtonMode"]
+- !private ["PSo15CALayerDelegate", "keyboardAppearance"]
+- !private ["PSo15CALayerDelegate", "keyboardType"]
+- !private ["PSo15CALayerDelegate", "placeholder"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "addAction"]
+- !private ["Ps7CVarArg", "addTextField"]
+- !private ["Ps7CVarArg", "autocorrectionType"]
+- !private ["Ps7CVarArg", "clearButtonMode"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyboardAppearance"]
+- !private ["Ps7CVarArg", "keyboardType"]
+- !private ["Ps7CVarArg", "placeholder"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "textFields"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "addTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "autocorrectionType"]
+- !private ["Ps28CustomDebugStringConvertible", "clearButtonMode"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyboardAppearance"]
+- !private ["Ps28CustomDebugStringConvertible", "keyboardType"]
+- !private ["Ps28CustomDebugStringConvertible", "placeholder"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "textFields"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "addTextField"]
+- !private ["Ps23CustomStringConvertible", "autocorrectionType"]
+- !private ["Ps23CustomStringConvertible", "clearButtonMode"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyboardAppearance"]
+- !private ["Ps23CustomStringConvertible", "keyboardType"]
+- !private ["Ps23CustomStringConvertible", "placeholder"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "textFields"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "addTextField"]
+- !private ["Ps9Equatable", "alert"]
+- !private ["Ps9Equatable", "autocorrectionType"]
+- !private ["Ps9Equatable", "clearButtonMode"]
+- !private ["Ps9Equatable", "dark"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "destructive"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyboardAppearance"]
+- !private ["Ps9Equatable", "keyboardType"]
+- !private ["Ps9Equatable", "placeholder"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "textFields"]
+- !private ["Ps9Equatable", "whileEditing"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "addTextField"]
+- !private ["Ps8Hashable", "alert"]
+- !private ["Ps8Hashable", "autocorrectionType"]
+- !private ["Ps8Hashable", "clearButtonMode"]
+- !private ["Ps8Hashable", "dark"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "destructive"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyboardAppearance"]
+- !private ["Ps8Hashable", "keyboardType"]
+- !private ["Ps8Hashable", "placeholder"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "textFields"]
+- !private ["Ps8Hashable", "whileEditing"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "addTextField"]
+- !private ["PSo8NSCoding", "autocorrectionType"]
+- !private ["PSo8NSCoding", "clearButtonMode"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "keyboardAppearance"]
+- !private ["PSo8NSCoding", "keyboardType"]
+- !private ["PSo8NSCoding", "placeholder"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textFields"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "addTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "textFields"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "addAction"]
+- !private ["CSo8NSObject", "addTextField"]
+- !private ["CSo8NSObject", "autocorrectionType"]
+- !private ["CSo8NSObject", "clearButtonMode"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyboardAppearance"]
+- !private ["CSo8NSObject", "keyboardType"]
+- !private ["CSo8NSObject", "placeholder"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textFields"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- !private ["PSo16NSObjectProtocol", "addTextField"]
+- !private ["PSo16NSObjectProtocol", "autocorrectionType"]
+- !private ["PSo16NSObjectProtocol", "clearButtonMode"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyboardAppearance"]
+- !private ["PSo16NSObjectProtocol", "keyboardType"]
+- !private ["PSo16NSObjectProtocol", "placeholder"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textFields"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["Ps16RawRepresentable", "dark"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["Ps16RawRepresentable", "destructive"]
+- !private ["Ps16RawRepresentable", "whileEditing"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "autocorrectionType"]
+- !private ["PSo29UIAccessibilityIdentification", "clearButtonMode"]
+- !private ["PSo29UIAccessibilityIdentification", "keyboardAppearance"]
+- !private ["PSo29UIAccessibilityIdentification", "keyboardType"]
+- !private ["PSo29UIAccessibilityIdentification", "placeholder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "default"]
+- !private ["OSC18UIAlertActionStyle", "destructive"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "addTextField"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["CSo17UIAlertController", "textFields"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- !private ["PSo12UIAppearance", "autocorrectionType"]
+- !private ["PSo12UIAppearance", "clearButtonMode"]
+- !private ["PSo12UIAppearance", "keyboardAppearance"]
+- !private ["PSo12UIAppearance", "keyboardType"]
+- !private ["PSo12UIAppearance", "placeholder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "addTextField"]
+- !private ["PSo21UIAppearanceContainer", "autocorrectionType"]
+- !private ["PSo21UIAppearanceContainer", "clearButtonMode"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "keyboardAppearance"]
+- !private ["PSo21UIAppearanceContainer", "keyboardType"]
+- !private ["PSo21UIAppearanceContainer", "placeholder"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textFields"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "addTextField"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "textFields"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "autocorrectionType"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "clearButtonMode"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "keyboardAppearance"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "keyboardType"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "placeholder"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "autocorrectionType"]
+- !private ["CSo9UIControl", "clearButtonMode"]
+- !private ["CSo9UIControl", "keyboardAppearance"]
+- !private ["CSo9UIControl", "keyboardType"]
+- !private ["CSo9UIControl", "placeholder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "autocorrectionType"]
+- !private ["PSo17UICoordinateSpace", "clearButtonMode"]
+- !private ["PSo17UICoordinateSpace", "keyboardAppearance"]
+- !private ["PSo17UICoordinateSpace", "keyboardType"]
+- !private ["PSo17UICoordinateSpace", "placeholder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "autocorrectionType"]
+- !private ["PSo13UIDynamicItem", "clearButtonMode"]
+- !private ["PSo13UIDynamicItem", "keyboardAppearance"]
+- !private ["PSo13UIDynamicItem", "keyboardType"]
+- !private ["PSo13UIDynamicItem", "placeholder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "addTextField"]
+- !private ["PSo18UIFocusEnvironment", "autocorrectionType"]
+- !private ["PSo18UIFocusEnvironment", "clearButtonMode"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "keyboardAppearance"]
+- !private ["PSo18UIFocusEnvironment", "keyboardType"]
+- !private ["PSo18UIFocusEnvironment", "placeholder"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textFields"]
+- !private ["PSo11UIFocusItem", "autocorrectionType"]
+- !private ["PSo11UIFocusItem", "clearButtonMode"]
+- !private ["PSo11UIFocusItem", "keyboardAppearance"]
+- !private ["PSo11UIFocusItem", "keyboardType"]
+- !private ["PSo11UIFocusItem", "placeholder"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "autocorrectionType"]
+- !private ["PSo10UIKeyInput", "clearButtonMode"]
+- !private ["PSo10UIKeyInput", "keyboardAppearance"]
+- !private ["PSo10UIKeyInput", "keyboardType"]
+- !private ["PSo10UIKeyInput", "placeholder"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["OSC20UIKeyboardAppearance", "dark"]
+- !private ["OSC14UIKeyboardType", "default"]
+- !private ["CSo11UIResponder", "addAction"]
+- !private ["CSo11UIResponder", "addTextField"]
+- !private ["CSo11UIResponder", "autocorrectionType"]
+- !private ["CSo11UIResponder", "clearButtonMode"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "keyboardAppearance"]
+- !private ["CSo11UIResponder", "keyboardType"]
+- !private ["CSo11UIResponder", "placeholder"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textFields"]
+- !private ["PSo30UIResponderStandardEditActions", "addAction"]
+- !private ["PSo30UIResponderStandardEditActions", "addTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "autocorrectionType"]
+- !private ["PSo30UIResponderStandardEditActions", "clearButtonMode"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "keyboardAppearance"]
+- !private ["PSo30UIResponderStandardEditActions", "keyboardType"]
+- !private ["PSo30UIResponderStandardEditActions", "placeholder"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "textFields"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "addTextField"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "textFields"]
+- !private ["OSC24UITextAutocorrectionType", "default"]
+- !private ["CSo11UITextField", "autocorrectionType"]
+- !private ["CSo11UITextField", "clearButtonMode"]
+- !private ["CSo11UITextField", "keyboardAppearance"]
+- !private ["CSo11UITextField", "keyboardType"]
+- !private ["CSo11UITextField", "placeholder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["OSC19UITextFieldViewMode", "whileEditing"]
+- !private ["PSo11UITextInput", "autocorrectionType"]
+- !private ["PSo11UITextInput", "clearButtonMode"]
+- !private ["PSo11UITextInput", "keyboardAppearance"]
+- !private ["PSo11UITextInput", "keyboardType"]
+- !private ["PSo11UITextInput", "placeholder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "autocorrectionType"]
+- !private ["PSo17UITextInputTraits", "clearButtonMode"]
+- !private ["PSo17UITextInputTraits", "keyboardAppearance"]
+- !private ["PSo17UITextInputTraits", "keyboardType"]
+- !private ["PSo17UITextInputTraits", "placeholder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "addTextField"]
+- !private ["PSo18UITraitEnvironment", "autocorrectionType"]
+- !private ["PSo18UITraitEnvironment", "clearButtonMode"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "keyboardAppearance"]
+- !private ["PSo18UITraitEnvironment", "keyboardType"]
+- !private ["PSo18UITraitEnvironment", "placeholder"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textFields"]
+- !private ["CSo6UIView", "autocorrectionType"]
+- !private ["CSo6UIView", "clearButtonMode"]
+- !private ["CSo6UIView", "keyboardAppearance"]
+- !private ["CSo6UIView", "keyboardType"]
+- !private ["CSo6UIView", "placeholder"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "addAction"]
+- !private ["CSo16UIViewController", "addTextField"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "textFields"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autocorrectionType"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "clearButtonMode"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "keyboardAppearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "keyboardType"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "placeholder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addAction"]
+- !private ["Ps9_Hashable", "addTextField"]
+- !private ["Ps9_Hashable", "alert"]
+- !private ["Ps9_Hashable", "autocorrectionType"]
+- !private ["Ps9_Hashable", "clearButtonMode"]
+- !private ["Ps9_Hashable", "dark"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "destructive"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "keyboardAppearance"]
+- !private ["Ps9_Hashable", "keyboardType"]
+- !private ["Ps9_Hashable", "placeholder"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "textFields"]
+- !private ["Ps9_Hashable", "whileEditing"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "C15CommonAlertView19AlertViewController"
+- "P15CommonAlertView27AlertViewControllerDelegate"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "OSC20UIKeyboardAppearance"
+- !private "OSC14UIKeyboardType"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "OSC24UITextAutocorrectionType"
+- !private "CSo11UITextField"
+- !private "OSC19UITextFieldViewMode"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "dd2180b3d3a8628b40e3cb2fa6c70d16"
